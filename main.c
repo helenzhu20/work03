@@ -1,4 +1,5 @@
-$include "euler.h"
+#include <stdio.h>
+#include "euler.h"
 
 int main() {
     int sum = sum_of_multiples_of_3_and_5(1000);
