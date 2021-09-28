@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 int sum_of_multiples_of_3_and_5(int iterations) {
     int x;
     int sum = 0;
@@ -44,4 +46,12 @@ int largest_palindrome_product() {
     }
 
     return palindrome;
+}
+
+int main() {
+    int sum = sum_of_multiples_of_3_and_5(1000);
+    printf("Sum of Multiples of 3 and 5: %d\n", sum); //expected value: 233168
+    printf("Largest Palindrome Product: %d\n", largest_palindrome_product()); //906609
+
+    return 0;
 }
