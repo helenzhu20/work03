@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 int sum_of_multiples_of_3_and_5(int iterations) {
     int x;
     int sum = 0;
